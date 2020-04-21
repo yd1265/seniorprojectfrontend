@@ -61,7 +61,6 @@ export default {
       StudentService.addStudent(data)
         .then(response => {
           this.student.id = response.data.id
-    
         })
       this.submitted = true
     },
