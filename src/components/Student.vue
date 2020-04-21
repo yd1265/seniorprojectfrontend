@@ -40,7 +40,8 @@ export default {
     getStudent (id) {
       Studentservice.getStudentById(id)
         .then(response => {
-          this.currentStudent = response.data })
+          this.currentStudent = response.data
+        })
     },
 
     updateStudent () {
