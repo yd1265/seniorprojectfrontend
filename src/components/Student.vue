@@ -40,17 +40,12 @@ export default {
     getStudent (id) {
       Studentservice.getStudentById(id)
         .then(response => {
-          this.currentStudent = response.data
-          console.log(this.currentStudent)
-        })
-        .catch(e => {
-          console.log(e)
-        })
+          this.currentStudent = response.data })
     },
+
     updateStudent () {
       Studentservice.updateStudent(this.currentStudent.id, this.currentStudent)
         .then(response => {
-          console.log(response.data)
           this.message = 'This student information  has been updated!'
         })
     },

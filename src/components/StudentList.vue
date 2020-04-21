@@ -51,10 +51,7 @@ export default {
     StudentService.getAllStudents()
       .then(response => {
         this.students = response.data
-      })
-      .catch(error => {
-        console.log(error)
-      })
+      })  
   },
 
   methods: {

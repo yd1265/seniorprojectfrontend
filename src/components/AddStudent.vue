@@ -61,12 +61,8 @@ export default {
       StudentService.addStudent(data)
         .then(response => {
           this.student.id = response.data.id
-          console.log(response.data)
+    
         })
-        .catch(e => {
-          console.log(e)
-        })
-
       this.submitted = true
     },
     newStudent () {
