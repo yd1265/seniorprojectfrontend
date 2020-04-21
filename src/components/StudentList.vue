@@ -51,9 +51,9 @@ export default {
     StudentService.getAllStudents()
       .then(response => {
         this.students = response.data
-      })  
+      })
   },
-  
+
   methods: {
     deletecoursecliked (id) {
       StudentService.deleteStudent(id)

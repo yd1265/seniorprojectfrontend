@@ -1,6 +1,6 @@
 {
   "name": "seniorproject",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -15,7 +15,9 @@
     "express": "^4.17.1",
     "serve-static": "^1.14.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.5",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
     "@vue/cli-plugin-router": "~4.2.0",
@@ -31,8 +33,5 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.1.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "devDependencies": {
-    
   }
 }
